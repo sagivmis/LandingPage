@@ -1,0 +1,199 @@
+* {
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  position: relative;
+  /* align-self: center; */
+  left: auto;
+  right: auto;
+}
+
+.container {
+  padding: 35px;
+  min-width: 1440px;
+  max-width: 1440px;
+  background-color: hsl(218, 28%, 13%);
+}
+
+.navbar-link {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  left: 40%;
+  margin-right: 50px;
+}
+.navbar-link:hover {
+  text-decoration: underline;
+}
+.heading {
+  font-family: "Raleway", sans-serif;
+}
+.logo {
+  transform: scale(0.6);
+  position: absolute;
+  left: 0px;
+}
+.main-header {
+  font-size: 32px;
+  font-weight: 700;
+}
+.start-btn {
+  margin-top: 30px;
+  background-color: hsl(176, 68%, 64%);
+}
+.btn {
+  width: 200px;
+  position: relative;
+  left: 42.5%;
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  filter: brightness(1.08);
+}
+.grid {
+  position: relative;
+  left: 10%;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* flex-direction: row; */
+  /* flex-basis: 3px; */
+  justify-content: center;
+}
+.grid-header {
+  /* position: absolute; */
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 13px;
+  /* flex-basis: 100px; */
+}
+.item {
+  justify-content: center;
+  position: relative;
+  width: 500px;
+}
+.lower-grid {
+  position: relative;
+  left: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.prod {
+  transform: scale(0.7);
+}
+
+.lower-header {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.par {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.par-link {
+  cursor: pointer;
+  text-align: left;
+  width: 150px;
+}
+.par-link:hover {
+  text-decoration: underline;
+}
+.grid-quotes {
+  position: relative;
+  left: 7%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 150px;
+  /* width: 5000px; */
+}
+.profile-pic {
+  border-radius: 25px;
+  transform: scale(0.3);
+  position: absolute;
+  left: 0px;
+}
+.item-quote {
+  background-color: hsl(219, 30%, 18%);
+  width: 400px;
+  border-radius: 10px;
+}
+.quote-pic {
+  position: relative;
+  left: -42%;
+  top: 18px;
+}
+.contactus {
+  background-color: hsl(217, 28%, 15%);
+  width: 700px;
+  position: relative;
+  left: 32.5%;
+  padding: 40px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  z-index: 1000;
+}
+.contact-header {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.input {
+  border-radius: 50px;
+  display: inline-block;
+  width: 450px;
+  height: 35px;
+}
+.start-btn-2 {
+  display: inline;
+  background-color: hsl(176, 68%, 64%);
+  left: 3%;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.margin {
+  margin-top: 20px;
+}
+.footer {
+  position: absolute;
+  bottom: -100px;
+  background-color: hsl(216, 53%, 9%);
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+}
+.footer-start {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+}
+.link-footer {
+  cursor: pointer;
+  text-align: left;
+  width: 150px;
+}
+.link-footer:hover {
+  text-decoration: underline;
+}
+.email-icon {
+  position: absolute;
+  left: 150px;
+}
+.location {
+  width: 400px;
+  position: relative;
+  left: 15%;
+}
+.location-icon {
+  position: absolute;
+  left: 40px;
+}
+.logo-bot {
+  margin-top: 70px;
+}

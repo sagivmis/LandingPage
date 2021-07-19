@@ -129,6 +129,9 @@
   left: -42%;
   top: 18px;
 }
+.fix {
+  bottom: -45px;
+}
 .contactus {
   background-color: hsl(217, 28%, 15%);
   width: 700px;
